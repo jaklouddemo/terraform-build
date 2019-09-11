@@ -39,7 +39,8 @@ Sample command output based on current tf_setup.json input
 ## Example Multi-Cloud Workspace Deployment with Github
 
 > Hierarchy Approach: [github_repository] / [terraform_workspace] / [cloud_provider] / [terraform_files]
-> Based on HashiCorp recommended approach "Multiple Workspaces per Repo" <https://www.terraform.io/docs/cloud/workspaces/repo-structure.html>
+> Based on HashiCorp recommended approach "Multiple Workspaces per Repo" 
+<https://www.terraform.io/docs/cloud/workspaces/repo-structure.html>
 
 ## Create Terraform Workspaces
 
@@ -137,7 +138,7 @@ Sample command output based on current tf_setup.json input
 > touch /Users/joe.akerson/code/terraform_repos/terraform-security/security-prod/vmware/outputs.tf
 > touch /Users/joe.akerson/code/terraform_repos/terraform-security/security-prod/vmware/variables.tf
 
-## Create Remote Github Repos using - function using python PyGithub module
+## Create Remote Github Repos using python PyGithub module
 
 > repo_inst.create_repo(terraform-compute, description=Terraform Compute Modules
 > repo_inst.create_repo(terraform-network, description=Terraform Network Modules
