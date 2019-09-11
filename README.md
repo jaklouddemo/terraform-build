@@ -1,25 +1,25 @@
 
-# Prior to running this script:
+Prior to running this script:
 
-# Generate 'Personal access token' from https://github.com/settings/tokens
-# Enter description, select scopes below and save: 
-#   repo            => Full control of private repositories
-#   admin:repo_hook => Full control of repository hooks
+Generate 'Personal access token' from https://github.com/settings/tokens
+Enter description, select scopes below and save: 
+  repo            => Full control of private repositories
+  admin:repo_hook => Full control of repository hooks
 
-# https://pygithub.readthedocs.io/en/latest/introduction.html
-# Add the following entry under the [packages] section to the default 'Pipfile'
-# [packages]
-# PyGithub = "*"
+https://pygithub.readthedocs.io/en/latest/introduction.html
+Add the following entry under the [packages] section to the default 'Pipfile'
+[packages]
+PyGithub = "*"
 
-# Install package dependencies (PyGithub)
-# pipenv install
+Install package dependencies (PyGithub)
+pipenv install
 
-# Run the script in the python virtual environment ('tfbuild' defined in Pipfile)
-# pipenv run ./tf_setup.py
+Run the script in the python virtual environment ('tfbuild' defined in Pipfile)
+pipenv run ./tf_setup.py
 
-# Execute from the parent directory where you want to store each local repository as a child subdirectory
+Execute from the parent directory where you want to store each local repository as a child subdirectory
 
-# tf_setup.json parameter descriptions, customize per environment
+tf_setup.json parameter descriptions, customize per environment
 "github_local_parent_repo_dir": "Parent directory for Terraform Github repos"
 "github_repo_owner": "Github account owner name",
 "github_access_key": "Github personal access key token",
@@ -28,7 +28,7 @@
 "clouds": "Name and description of each client cloud"
 "files": "Name and description of each standard .tf file for each environment/cloud"
 
-# Sample command output based on current tf_setup.json input
+Sample command output based on current tf_setup.json input
 
 ################################################################################
 ** Terraform Enterprise **
