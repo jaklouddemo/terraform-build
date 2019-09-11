@@ -44,6 +44,7 @@ Sample command output based on current tf_setup.json input
 
 ## Create Terraform Workspaces
 
+```console
 cd /Users/joe.akerson/code/terraform_repos/terraform-compute/compute-dev && terraform workspace new compute-dev
 cd /Users/joe.akerson/code/terraform_repos/terraform-compute/compute-stage && terraform workspace new compute-stage
 cd /Users/joe.akerson/code/terraform_repos/terraform-compute/compute-prod && terraform workspace new compute-prod
@@ -53,6 +54,7 @@ cd /Users/joe.akerson/code/terraform_repos/terraform-network/network-prod && ter
 cd /Users/joe.akerson/code/terraform_repos/terraform-security/security-dev && terraform workspace new security-dev
 cd /Users/joe.akerson/code/terraform_repos/terraform-security/security-stage && terraform workspace new security-stage
 cd /Users/joe.akerson/code/terraform_repos/terraform-security/security-prod && terraform workspace new security-prod
+```
 
 ## Create Terraform Files
 
