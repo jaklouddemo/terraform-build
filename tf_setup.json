@@ -1,0 +1,24 @@
+{
+    "github_local_parent_repo_dir": "/Users/joe.akerson/code/terraform-repos",
+    "github_repo_owner": "jaklouddemo",
+    "repos": {
+        "terraform-compute": "Terraform Compute Modules",
+        "terraform-network": "Terraform Network Modules", 
+        "terraform-security": "Terraform Security Modules"   
+    },
+    "environments": {
+        "dev": "Development Environment",
+        "stage": "Stage Environment",
+        "prod": "Prod Environment" 
+    },
+    "clouds": {
+        "aws": "AWS provider code",
+        "azure": "Azure provider code",
+        "vmware": "VMware provider code"
+    },
+    "files": {
+        "main.tf": "Terraform main definition file",
+        "outputs.tf": "Terraform output definition file",
+        "variables.tf": "Terraform variable definition file"
+    }
+}
