@@ -23,6 +23,7 @@ pipenv run ./tf_setup.py
 
 Execute from the parent directory where you want to store each local repository as a child subdirectory
 
+```console
 > tf_setup.json parameter descriptions, customize per environment
 > "github_local_parent_repo_dir": "Parent directory for Terraform Github repos"
 > "github_repo_owner": "Github account owner name",
@@ -31,6 +32,7 @@ Execute from the parent directory where you want to store each local repository 
 > "environments": "Name and description of each client environment"
 > "clouds": "Name and description of each client cloud"
 > "files": "Name and description of each standard .tf file for each environment/cloud"
+```
 
 Sample command output based on current tf_setup.json input
 
