@@ -27,7 +27,7 @@ def auth_github(access_token):
 # Create github repositories from 'repos' dict
 def create_repos(repo_inst, repos_dict):
     for name, desc in repos_dict.items():
-        print('repo_inst.create_repo(' + name + ', description=' + desc)
+        print('repo_inst.create_repo(' + name + ', description=' + desc + ')')
     #     new_repo = repo_inst.create_repo(
     #         name,
     #         allow_rebase_merge=True,

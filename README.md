@@ -147,9 +147,9 @@ touch /Users/joe.akerson/code/terraform-repos/terraform-security/security-prod/v
 ### Create Remote Github Repos using python PyGithub module
 
 ```console
-repo_inst.create_repo(terraform-compute, description=Terraform Compute Modules
-repo_inst.create_repo(terraform-network, description=Terraform Network Modules
-repo_inst.create_repo(terraform-security, description=Terraform Security Modules
+repo_inst.create_repo(terraform-compute, description=Terraform Compute Modules)
+repo_inst.create_repo(terraform-network, description=Terraform Network Modules)
+repo_inst.create_repo(terraform-security, description=Terraform Security Modules)
 ```
 
 ### Clone to Local Github Repos
