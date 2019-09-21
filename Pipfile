@@ -5,3 +5,11 @@ name = "pypi"
 
 [packages]
 PyGithub = "*"
+python-gitlab = "*"
+requests = "*"
+awscli = "*"
+boto3 = "*"
+jmespath = "*"
+
+[dev-packages]
+pylint = "*"

@@ -1,6 +1,7 @@
 {
-    "github_local_parent_repo_dir": "/Users/joe.akerson/code/terraform-repos",
-    "github_repo_owner": "jaklouddemo",
+    "local_repo_base_dir": "~/code/terraform-repos",
+    "repo_owner": "jaklouddemo",
+    "git_global_email": "jaklouddemo@aol.com",
     "repos": {
         "terraform-compute": "Terraform Compute Modules",
         "terraform-network": "Terraform Network Modules", 
@@ -19,6 +20,7 @@
     "files": {
         "main.tf": "Terraform main definition file",
         "outputs.tf": "Terraform output definition file",
-        "variables.tf": "Terraform variable definition file"
+        "variables.tf": "Terraform variable definition file",
+        "README.md": "Readme markdown file describing code"
     }
 }
