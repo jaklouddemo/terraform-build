@@ -38,7 +38,7 @@ git config --global user.email "<repo_owner_email>"
 {
     "local_repo_base_dir": "~/code/terraform-repos",
     "repo_owner": "<repo_owner>",
-    "git_global_email": "<repo_owner_emal>",
+    "git_global_email": "<repo_owner_email>",
     "repos": {
         "terraform-compute": "Terraform Compute Modules",
         "terraform-network": "Terraform Network Modules",
